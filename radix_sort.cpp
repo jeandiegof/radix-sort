@@ -30,7 +30,7 @@ bool is_string_valid(const std::string& string) {
 void radix_sort_msd(std::vector<std::string>& vector) {
     // maximum returns the size of the maximum string
     size_t max_lenght = maximum(vector);
-    std::cout << "Maximum: " << (size_t) max_lenght << std::flush;
+    std::cout << "Maximum: \n" << (size_t) max_lenght << std::flush;
 
     // creates a buffer for couting sort
     std::vector<uint32_t> buffer(27, 0);
