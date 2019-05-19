@@ -1,3 +1,3 @@
 # radix sort
-# build  
+### build  
 g++ -std=c++17 main.cpp file.cpp radix_sort.cpp -o main -Wall
